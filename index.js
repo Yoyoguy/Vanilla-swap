@@ -43,7 +43,7 @@ Click on Play Now to start mining Ton Coin`, {
         reply_markup: {
             inline_keyboard: [
                 [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
-                [{ text: "🧩 Join Our Telegram Channel 🧩", url: "https://t.me/demotest101" }]
+                [{ text: "🧩 Join Our Telegram Channel 🧩", url: "https://t.me/vanillaswap_channel" }]
                 // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
             ],
             in: true
