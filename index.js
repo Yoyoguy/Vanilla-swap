@@ -37,9 +37,9 @@ bot.start((ctx) => {
     // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
     const user = ctx.message.from;
     const userName = user.username ? `@${user.username}` : user.first_name;
-    ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Demo Tap App!*
+    ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Vanilla Swap!*
 
-Click on Play Now to start mining Ton Coin`, {
+Click on Play Now to start mining $VSWAP`, {
         reply_markup: {
             inline_keyboard: [
                 [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
